@@ -45,11 +45,11 @@ promedios = promedio_estudiante(alumnos,nombres)
 print(promedios)
 
 
-'''for name in promedios:                                      
+for name in promedios:                                      
    print(f'-Alumno: {name} -Promedio: {promedios[name]}')
 
 print(f'El promedio general de todo el curso es: {promedio_general(promedios):.2f}')
 nombre = mayor_promedio(promedios)
 print(f'El alumno con mayor promedio es: {nombre} con un promedio de: {promedios[nombre]} ')
 nombreMenorNota = menor_nota(nombres,notas_1,notas_2)
-print(f'El alumno con menor nota obtenida fue: {nombreMenorNota[0]} con una nota de: {nombreMenorNota[1]} ')'''
+print(f'El alumno con menor nota obtenida fue: {nombreMenorNota[0]} con una nota de: {nombreMenorNota[1]} ')
