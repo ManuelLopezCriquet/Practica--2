@@ -41,6 +41,7 @@ def menor_nota(nombres,notas1,notas2):                   #E
 
 alumnos = generar_nueva_estructura(nombres, notas_1, notas_2)
 promedios = promedio_estudiante(alumnos,nombres)
+
 print(promedios)
 
 
